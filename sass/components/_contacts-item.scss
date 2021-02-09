@@ -1,0 +1,43 @@
+.contacts-item {
+  & {
+    display: inline;
+  }
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &__link {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    align-items: center;
+    color: $benefits-color;
+    fill: $benefits-color;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: $timing-function;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
+
+  &__info {
+    display: inline-flex;
+    width: 16px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}

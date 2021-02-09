@@ -1,0 +1,74 @@
+/* Team */
+
+.team {
+  
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: $team-background-color;
+
+
+  & li {
+    margin-right: 30px;
+    width: calc((100% - 90px) / 4);
+  }
+
+  &__item {
+    background-color: $primary-white-color;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  &__img {
+    border-radius: 0px;
+    margin-bottom: 30px;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+
+  &__description {
+    color: $benefits-color;
+    margin-bottom: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  &__list {
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  &__list li {
+    margin-right: 10px;
+    width: calc((100% - 30px) / 4);
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.overlay {
+  display: block;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      $transparent-background-color,
+      $transparent-background-color
+    ),
+    url('../images/header-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+}

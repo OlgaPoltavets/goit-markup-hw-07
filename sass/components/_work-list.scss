@@ -1,0 +1,39 @@
+/* Work */
+
+.work-list {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  & li {
+    margin-right: 30px;
+    width: calc((100% - 60px) / 3);
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: $primary-white-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: $transparent-background-color;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+}

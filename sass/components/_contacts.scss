@@ -1,0 +1,13 @@
+/* Сontacts */
+
+.contacts {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  & li {
+    margin-right: 30px;
+    width: calc((100% - 30px) / 2);
+  }
+}

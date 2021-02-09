@@ -1,0 +1,55 @@
+/* Client */
+
+.client {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+  & li {
+    margin-right: 30px;
+    width: calc((100% - 150) / 6);
+  }
+  
+  &__item {
+    display: inline;
+  }
+  
+  &__item:last-child {
+    margin-right: 0;
+  }
+  
+  &__link {
+    display: inline-flex;
+    width: 170px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color:$primary-white-color;
+    color:$client-color;
+    padding: 0;
+    border: 1px solid $client-color;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  
+    transition-property: border-color color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+  }
+  
+  &__link:hover,
+  &__link:focus {
+    border-color: var($accent-color);
+    color: var($accent-color);
+  }
+  
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,11 @@
+.list {
+  display: inline-flex;
+  list-style: none;
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0;
+}

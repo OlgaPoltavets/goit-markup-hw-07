@@ -1,0 +1,23 @@
+/* Site nav */
+
+.site-nav {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  & li {
+    margin-right: 50px;
+    width: calc((100% - 100px) / 3);
+  }
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-item:last-child {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта Header-->
+    <header class="header header-line">
+      <div class="container page-header">
+        <nav>
+          <a class="logo"><span class="page-header__logo">Web</span> Studio</a>
+
+          <ul class="site-nav">
+            <li class="site-nav-item">
+              <a
+                href="./index.html"
+                class="site-nav-item__link site-nav-item__menu"
+                >Студия</a
+              >
+            </li>
+            <li class="site-nav-item">
+              <a href="" class="site-nav-item__link site-nav-item__current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="site-nav-item">
+              <a href="" class="site-nav-item__link site-nav-item__menu"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li class="contacts-item">
+            <!-- Ссылка на адрес электронной почты  -->
+            <a class="contacts-item__link" href="mailto:info@devstudio.com">
+              <svg class="contacts-item__info" width="16" height="11.2">
+                <use href="./images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com
+            </a>
+          </li>
+
+          <li class="contacts-item">
+            <!-- Ссылка на телефонный номер -->
+            <a class="contacts-item__link" href="tel:+380961111111">
+              <svg class="contacts-item__info" width="10" height="15">
+                <use href="./images/sprite.svg#icon-smartphone"></use></svg>+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Portfolio -->
+      <section class="section">
+        <div class="container portfolio-nav">
+          <h1 class="visually-hidden">Портфолио СКРЫТЬ</h1>
+          <ul class="list portfolio-nav-list">
+            <li class="portfolio-nav-list__item">
+              <button
+                type="button"
+                class="portfolio-nav-list__link button-portfolio"
+              >
+                Все
+              </button>
+            </li>
+            <li class="portfolio-nav-list__item">
+              <button
+                type="button"
+                class="portfolio-nav-list__link button-portfolio"
+              >
+                Веб-сайты
+              </button>
+            </li>
+            <li class="portfolio-nav-list__item">
+              <button
+                type="button"
+                class="portfolio-nav-list__link button-portfolio"
+              >
+                Приложения
+              </button>
+            </li>
+            <li class="portfolio-nav-list__item">
+              <button
+                type="button"
+                class="portfolio-nav-list__link button-portfolio"
+              >
+                Дизайн
+              </button>
+            </li>
+            <li class="portfolio-nav-list__item">
+              <button
+                type="button"
+                class="portfolio-nav-list__link button-portfolio"
+              >
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container">
+          <ul class="portfolio-list">
+            <li class="portfolio-list__item">
+              <!-- Технокряк-Веб-сайт -->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/tehnocryac-web-site.jpg"
+                      alt="laptop"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера
+                        конкурентов.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Технокряк</h3>
+                    <p class="portfolio-list__description">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!-- Постер New Orlean vs Golden Star-Дизайн-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/new-orlean-vs-golden-star-design.jpg"
+                      alt="men"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Постер New Orlean vs Golden Star это ...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">
+                      Постер New Orlean vs Golden Star
+                    </h3>
+                    <p class="portfolio-list__description">Дизайн</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Ресторан Seafood-Приложение-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/restaurant-seafood-application.jpg"
+                      alt="fish"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Ресторан Seafood это ...........................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Ресторан Seafood</h3>
+                    <p class="portfolio-list__description">Приложение</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Проект Prime-Маркетинг-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/project-prime-marketing.jpg"
+                      alt="headphones"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Проект Prime это ................................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Проект Prime</h3>
+                    <p class="portfolio-list__description">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Проект Boxes-Приложение-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/project-boxes-application.jpg"
+                      alt="box"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Проект Boxes это ...............................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Проект Boxes</h3>
+                    <p class="portfolio-list__description">Приложение</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Inspiration has no Borders-Веб-сайт-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/img-decisions.jpg"
+                      alt="monitor"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Inspiration has no Borders-Веб это .............
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">
+                      Inspiration has no Borders
+                    </h3>
+                    <p class="portfolio-list__description">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Издание Limited Edition-Дизайн-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/limited-edition-design.jpg"
+                      alt="open book"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Издание Limited Edition это .....................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">
+                      Издание Limited Edition
+                    </h3>
+                    <p class="portfolio-list__description">Дизайн</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Проект LAB-Маркетинг-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/project-lab-marketing.jpg"
+                      alt="бирка"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Проект LAB это ...................................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Проект LAB</h3>
+                    <p class="portfolio-list__description">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="portfolio-list__item">
+              <!--Growing Business-Приложение-->
+              <div class="portfolio__block">
+                <a href="">
+                  <div class="portfolio__thumb">
+                    <img
+                      src="./images/application.jpg"
+                      alt="laptop and hands"
+                      width="370"
+                      height="294"
+                    />
+
+                    <div class="portfolio__overlay">
+                      <p class="portfolio__description">
+                        Growing Business это .........................
+                      </p>
+                    </div>
+                  </div>
+                  <div class="portfolio-list__text">
+                    <h3 class="portfolio-list__title">Growing Business</h3>
+                    <p class="portfolio-list__description">Приложение</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container page-footer">
+        <div class="footer-content">
+          <div class="footer-address">
+            <a class="address-logo"
+              ><span class="page-footer__logo">Web </span>
+              <span class="page-footer__logo-invers"> Studio</span></a
+            >
+            <ul class="address">
+              <li class="address-item">
+                <a href="" class="page-footer__address"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="address-item__list"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+380991111111" class="address-item__list"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-block">
+            <b class="page-footer__title">Присоединяйтесь</b>
+            <ul class="footer-team__list">
+              <li class="footer-team__icon">
+                <a class="team-networks__invers" href="" aria-label="">
+                  <svg class="team-icon__invers" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-team__icon">
+                <a class="team-networks__invers" href="" aria-label="">
+                  <svg class="team-icon__invers" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-team__icon">
+                <a class="team-networks__invers" href="" aria-label="">
+                  <svg class="team-icon__invers" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-team__icon">
+                <a class="team-networks__invers" href="" aria-label="">
+                  <svg class="team-icon__invers" width="20" height="20">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="e-mail">
+            <p class="page-footer__title">Подпишитесь на рассылку</p>
+            <form class="footer-button">
+              <input
+                id="email"
+                class="footer-e-mail"
+                type="email"
+                name="mail"
+                placeholder="E-mail"
+              />
+              <buttom class="button button-down" type="submit">
+                Подписаться
+              </buttom>
+            </form>
+          </div>
+        </div>
+
+        <div>
+          <p class="copyright">2020 | Developed by GoIT Students</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
