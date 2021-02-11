@@ -1,0 +1,42 @@
+/* e-mail */
+
+.e-mail {
+  display: inline-block;
+  
+  &__button {
+    display: inline-flex;
+  }
+  
+  &__form {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.87;
+  
+    min-width: 358px;
+    height: 50px;
+  
+    color: $footer-color;
+    background-color: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 12px;
+    padding-right: 58px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  
+    margin-right: 12px;
+  
+    cursor: pointer;
+  
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: $timing-function;
+  }
+  
+  &__form:hover,
+  &__form:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
+}

@@ -25,8 +25,8 @@
     height: 90px;
     align-items: center;
     justify-content: center;
-    background-color:$primary-white-color;
-    color:$client-color;
+    background-color: $primary-white-color;
+    color: $client-color;
     padding: 0;
     border: 1px solid $client-color;
     border-radius: 4px;
@@ -40,8 +40,8 @@
   
   &__link:hover,
   &__link:focus {
-    border-color: var($accent-color);
-    color: var($accent-color);
+    border-color: $accent-color;
+    color: $accent-color;
   }
   
   &__icon {

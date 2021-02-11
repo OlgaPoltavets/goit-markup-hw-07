@@ -1,0 +1,26 @@
+/* Footer */
+
+.footer {
+    background-color: #2f303a;
+    
+  &-page {
+    display: flex;
+    flex-direction: column;
+  
+    padding-top: 45px;
+    padding-bottom: 21px;
+  }
+  
+  /* footer-content */
+  
+  &-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  &-address {
+    display: block;
+    margin-bottom: 28px;
+  }
+}

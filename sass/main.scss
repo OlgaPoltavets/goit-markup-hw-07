@@ -5,7 +5,7 @@
 @import './components/header';
 @import './components/logo-header';
 @import './components/site-nav';
-@import './components/site-nav-item__link';
+@import './components/site-nav-item';
 @import './components/list';
 @import './components/contacts';
 @import './components/contacts-item';
@@ -20,8 +20,18 @@
 @import './components/portfolio-nav';
 @import './components/portfolio-nav-list';
 @import './components/portfolio-list';
-/*
-@import './components/';
-@import './components/';
-@import './components/';
-*/
+@import './components/footer';
+@import './components/footer-logo';
+@import './components/address';
+@import './components/footer-team';
+@import './components/e-mail';
+@import './components/button';
+@import './components/copyright';
+@import './components/hero-button';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form';
+@import './components/comment';
+@import './components/checkbox';
+@import './components/form__button';
+@import './components/form-close';

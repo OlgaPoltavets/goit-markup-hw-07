@@ -1,0 +1,47 @@
+ /* Button */
+
+.button {
+  color: $primary-white-color;
+  background-color: $accent-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: inline-flex;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 200px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+
+&:hover,
+&:focus {
+  background-color: blueviolet;
+}
+
+  &-down {
+    font-weight: 900;
+    padding: 10px 10px 10px 29px;
+    height: 50px;
+  }
+
+  & &-down::after {
+    content: ' ';
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    background-image: url(../images/icon-send.svg);
+    background-size: contain;
+  }
+  
+  &-portfolio {
+    display: flex;
+    border-radius: 4px;
+    padding: 6px 22px;
+  }
+}
