@@ -56,7 +56,7 @@
   
     transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
   
   &__networks:hover,
